@@ -2355,6 +2355,13 @@ const connectors = [{
 	],
 	js: 'connectors/amazingradio.js',
 	id: 'amazingradio',
+},	{
+	label: 'Nemiers Radio',
+	matches: [
+		'*://nemiers.lv/*',
+	],
+	js: 'connectors/nemiers.js',
+	id: 'nemiers',
 }];
 
 define(() => connectors);
